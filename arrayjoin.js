@@ -30,4 +30,11 @@ function reverseString(str) {
     return str.split("").reverse().join("");
 }
 console.log(reverseString("JavaScript")); 
-  // Output: "tpircSavaJ"
+// Output: "tpircSavaJ"
+
+//Create a CSV String
+//Given an array of numbers, create a CSV string:
+
+const numbers2 = [1, 2, 3, 4, 5];
+console.log(numbers2.join(",")); 
+// Output: "1,2,3,4,5"
