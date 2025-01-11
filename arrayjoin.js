@@ -38,3 +38,10 @@ console.log(reverseString("JavaScript"));
 const numbers2 = [1, 2, 3, 4, 5];
 console.log(numbers2.join(",")); 
 // Output: "1,2,3,4,5"
+
+//Custom Formatting
+//Format an array as a sentence:
+
+const words = ["I", "love", "JavaScript"];
+console.log(words.join(" ")); 
+// Output: "I love JavaScript"
