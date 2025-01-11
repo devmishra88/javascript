@@ -22,3 +22,12 @@ console.log(arr.join(" "));
 const nested = [["a", "b"], ["c", "d"]];
 console.log(nested.join("-")); 
 // Output: "a,b-c,d" (does not flatten the array)
+
+//Reverse and Join:
+//Write a function to reverse a string using join():
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+console.log(reverseString("JavaScript")); 
+  // Output: "tpircSavaJ"
