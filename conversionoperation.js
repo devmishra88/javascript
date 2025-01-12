@@ -23,6 +23,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false;
 // "Devesh" => true
 
+
 let someNumber = 33
 
 let stringNumber = String(someNumber)
