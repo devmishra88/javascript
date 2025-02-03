@@ -36,3 +36,14 @@ const myFunction = function(){
     console.log("Hello word");    
 }
 
+/*
+Stack and Heap memory
+//Stack (Primitive), Heap (Non-Primitive)
+
+Stack (Primitive) - jb bhi stack memory use hota hai to hmne jo variable declear kra hai uska ek copy milta hai
+
+Heap (Non-Primitive) - jb bhi Heap use me aata hai to variable ka reference milta hai
+*/
+
+let mySiteName = "dealcorner.in"
+
